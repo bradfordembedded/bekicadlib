@@ -1,7 +1,6 @@
 EESchema-DOCLIB  Version 2.0  Date: Wed 18 Mar 2015 05:51:38 AM EDT
 #
-$CMP 	
-MI0805L301R-10
+$CMP MI0805L301R-10
 D Ferrite Bead 300 Ohm @ 100 MHz 2A Rated
 K FERRITE
 $ENDCMP
