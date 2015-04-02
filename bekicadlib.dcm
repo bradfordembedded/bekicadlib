@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 02 Apr 2015 04:50:28 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Thu 02 Apr 2015 05:11:29 AM EDT
 #
 $CMP AT24C02D
 D I2C 2 kb EEPROM
@@ -25,6 +25,11 @@ K EARTH
 $ENDCMP
 #
 $CMP LED-GRN
+K LED
+$ENDCMP
+#
+$CMP LED-GRN-YEL
+D Dual Green/Yellow LED 280/800mcd
 K LED
 $ENDCMP
 #
