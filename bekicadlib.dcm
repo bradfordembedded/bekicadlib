@@ -1,4 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: Wed 13 May 2015 05:22:38 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Wed 13 May 2015 05:30:28 AM EDT
+#
+$CMP 74AVC1T45
+D Dual supply voltage level translator/transceiver, 3 state
+K level shifter
+$ENDCMP
 #
 $CMP AT24C02D
 D I2C 2 kb EEPROM
