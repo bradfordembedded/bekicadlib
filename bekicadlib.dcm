@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Fri 24 Apr 2015 02:33:55 PM EDT
+EESchema-DOCLIB  Version 2.0  Date: Wed 13 May 2015 05:12:03 AM EDT
 #
 $CMP AT24C02D
 D I2C 2 kb EEPROM
@@ -105,6 +105,7 @@ $ENDCMP
 #
 $CMP USB-MICRO-B
 D USB Micro Type B Connector
+K USB
 $ENDCMP
 #
 $CMP USB2504
