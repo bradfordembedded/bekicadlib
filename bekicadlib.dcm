@@ -94,10 +94,6 @@ D LDO 3.3 VDC Output
 K LDO
 $ENDCMP
 #
-$CMP MICRO-USB-B
-D USB Micro Type B Connector
-$ENDCMP
-#
 $CMP R
 D RESISTOR
 K R
