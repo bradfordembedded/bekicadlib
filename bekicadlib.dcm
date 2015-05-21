@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 14 May 2015 05:49:40 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Thu 21 May 2015 05:20:55 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -101,6 +101,11 @@ $ENDCMP
 #
 $CMP SAMD11D14A-MUT
 D Atmel SAMD11D14A-MUT 24 pin QFN Cortex-M0+
+K Cortex-M0
+$ENDCMP
+#
+$CMP SAMD11D14A-SSUT
+D Atmel SAMD11D14A-SSUT 20 pin SOIC-W Cortex-M0+
 K Cortex-M0
 $ENDCMP
 #
