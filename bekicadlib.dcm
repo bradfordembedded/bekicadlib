@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 21 May 2015 05:47:27 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Thu 28 May 2015 05:27:30 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -52,6 +52,11 @@ $ENDCMP
 $CMP IFX21401MB
 D LDO Tracking Output
 K LDO, Tracking
+$ENDCMP
+#
+$CMP LED-5060BRG4
+D RGB LED 6 pin package
+K LED
 $ENDCMP
 #
 $CMP LED-GRN
