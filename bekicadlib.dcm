@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Fri 29 May 2015 05:23:24 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Mon 01 Jun 2015 05:23:28 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -52,6 +52,11 @@ $ENDCMP
 $CMP HEADER-6PIN-2ROW
 D HEADER, 6 PIN, 2 ROW
 K HEADER, 2X3
+$ENDCMP
+#
+$CMP HEADER-8PIN-2ROW
+D HEADER, 8 PIN, 2 ROW
+K HEADER, 2X4
 $ENDCMP
 #
 $CMP IFX21401MB
