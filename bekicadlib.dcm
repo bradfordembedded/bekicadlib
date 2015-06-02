@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 01 Jun 2015 05:23:28 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Tue 02 Jun 2015 05:54:38 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -97,6 +97,11 @@ $ENDCMP
 $CMP MCP6001
 D MCP6001 General Purpose Op-Amp
 K op-amp
+$ENDCMP
+#
+$CMP MCP6004
+D Quad Op-Amp Rail-to-rail General Purpose
+K op-amp quad
 $ENDCMP
 #
 $CMP MI0805L301R-10
