@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Wed 10 Jun 2015 05:09:59 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Thu 11 Jun 2015 05:24:52 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -122,6 +122,16 @@ $ENDCMP
 $CMP MIC5504-3.3YM5
 D LDO 3.3 VDC Output
 K LDO
+$ENDCMP
+#
+$CMP NCP361
+D 5V Over Voltage Protection
+K OVP
+$ENDCMP
+#
+$CMP NCP361SNT1G
+D 5V Over Voltage Protection
+K OVP
 $ENDCMP
 #
 $CMP R
