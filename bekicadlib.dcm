@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 11 Jun 2015 05:24:52 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Wed 17 Jun 2015 05:24:23 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -8,6 +8,11 @@ $ENDCMP
 $CMP 74LVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
 K level shifter
+$ENDCMP
+#
+$CMP AS4C16M16S-7TCN
+D 256Mb (32 MB) SDRAM TSOP-54 143MHz
+K SDRAM
 $ENDCMP
 #
 $CMP AT24C02D
