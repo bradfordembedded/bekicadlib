@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 18 Jun 2015 05:47:37 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Thu 18 Jun 2015 05:56:06 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -54,6 +54,16 @@ D N-Channel FET
 K FET
 $ENDCMP
 #
+$CMP FID-CIR
+D Fiducial Circular
+K Fiducial
+$ENDCMP
+#
+$CMP FID-SQUARE
+D Fiducial Square
+K Fiducial
+$ENDCMP
+#
 $CMP HEADER-4PIN
 D 6 PIN HEADER
 K HEADER
@@ -72,6 +82,11 @@ $ENDCMP
 $CMP HEADER-8PIN-2ROW
 D HEADER, 8 PIN, 2 ROW
 K HEADER, 2X4
+$ENDCMP
+#
+$CMP HOLE-3.5MM
+D 3.5 mm Hole (Plated or UnPlated)
+K hole
 $ENDCMP
 #
 $CMP IFX21401MB
