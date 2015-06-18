@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Wed 17 Jun 2015 05:32:00 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Thu 18 Jun 2015 05:47:37 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -103,6 +103,11 @@ $ENDCMP
 #
 $CMP LED-YEL
 K LED
+$ENDCMP
+#
+$CMP MAX9938*EUK+
+D Current Sense Amplifier 1.6-28V input
+K Amp
 $ENDCMP
 #
 $CMP MCP2221
