@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 18 Jun 2015 05:56:06 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Wed 24 Jun 2015 05:52:25 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -182,6 +182,11 @@ $ENDCMP
 $CMP SRF2012-900YA
 D Common Mode Choke
 K Choke
+$ENDCMP
+#
+$CMP STM32F446Z*T*
+D STM32F446 in LQFP144 package
+K STM32F4
 $ENDCMP
 #
 $CMP TLV70233DBV
