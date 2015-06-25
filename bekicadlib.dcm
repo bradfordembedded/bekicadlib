@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 25 Jun 2015 05:52:29 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Thu 25 Jun 2015 06:02:49 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -139,8 +139,13 @@ D Quad Op-Amp Rail-to-rail General Purpose
 K op-amp quad
 $ENDCMP
 #
+$CMP MI0603L301R
+D Ferrite Bead 300 Ohm @ 100 MHz 2A Rated 0603
+K FERRITE
+$ENDCMP
+#
 $CMP MI0805L301R-10
-D Ferrite Bead 300 Ohm @ 100 MHz 2A Rated
+D Ferrite Bead 300 Ohm @ 100 MHz 2A Rated 0805
 K FERRITE
 $ENDCMP
 #
