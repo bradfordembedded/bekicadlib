@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 25 Jun 2015 06:02:49 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Mon 29 Jun 2015 05:33:46 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -212,6 +212,11 @@ $ENDCMP
 $CMP USB2504
 D SMSC 4 PORT USB 2.0 HUB
 K USB
+$ENDCMP
+#
+$CMP USB3320C-EZK
+D SMSC USB 2.0 HS ULPI Interface
+K ULPI USB
 $ENDCMP
 #
 $CMP W25Q128FVSI
