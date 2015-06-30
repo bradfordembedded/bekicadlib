@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Tue 30 Jun 2015 05:37:52 AM EDT
+EESchema-LIBRARY Version 2.3  Date: Tue 30 Jun 2015 05:49:41 AM EDT
 #encoding utf-8
 #
 # 74AVC1T45
@@ -431,8 +431,8 @@ ENDDEF
 # L
 #
 DEF L L 0 40 N N 1 F N
-F0 "L" 275 50 60 H V C CNN
-F1 "L" 275 -100 60 H V C CNN
+F0 "L" 275 50 40 H V C CNN
+F1 "L" 275 -100 40 H V C CNN
 F2 "~" 150 0 60 H V C CNN
 F3 "~" 150 0 60 H V C CNN
 DRAW
