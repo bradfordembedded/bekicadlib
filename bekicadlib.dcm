@@ -130,6 +130,11 @@ D Current Sense Amplifier 1.6-28V input
 K Amp
 $ENDCMP
 #
+$CMP MCP1603T-330I/OS
+D 3.3 V Fixed Output 500 mA Buck DC-DC
+K Buck
+$ENDCMP
+#
 $CMP MCP2221
 D USB to I2C
 $ENDCMP
