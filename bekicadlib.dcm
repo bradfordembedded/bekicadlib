@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Wed 22 Jul 2015 05:43:57 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Thu 23 Jul 2015 05:20:37 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -67,6 +67,11 @@ $ENDCMP
 $CMP FXMA2102L8X
 D I2C Level Shifter in MicroPak Package
 K I2C
+$ENDCMP
+#
+$CMP HEADER-10PIN-2ROW
+D HEADER, 10 PIN, 2 ROW
+K HEADER, 2X5
 $ENDCMP
 #
 $CMP HEADER-4PIN
