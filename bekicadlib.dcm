@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 28 Jul 2015 05:28:32 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Wed 05 Aug 2015 05:42:38 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -27,6 +27,11 @@ $ENDCMP
 #
 $CMP BARREL_JACK
 D DC Barrel Jack
+$ENDCMP
+#
+$CMP BAT42
+D BAT42 Small Signal Diode
+K diode
 $ENDCMP
 #
 $CMP CAP
