@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 10 Aug 2015 05:43:08 AM EDT
+EESchema-DOCLIB  Version 2.0  Date: Tue 11 Aug 2015 05:13:34 AM EDT
 #
 $CMP 74AVC1T45
 D Dual supply voltage level translator/transceiver, 3 state
@@ -152,6 +152,11 @@ $ENDCMP
 #
 $CMP MCP2221
 D USB to I2C
+$ENDCMP
+#
+$CMP MCP2221-QFN
+D USB to I2C in QFN package
+K USB I2C
 $ENDCMP
 #
 $CMP MCP6001
