@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wed 15 Apr 2015 01:31:18 PM EDT
+PCBNEW-LibModule-V1  Wed 19 Aug 2015 05:40:31 AM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -7,8 +7,8 @@ HEADER-100MIL-6
 SMT-0402
 SMT-0603
 SMT-0805
-SMT-TQFP-64-0.5MM
 SOIC-N-16
+TQFP-64-0.5MM
 $EndINDEX
 $MODULE A-DF-09-AKG-T2S
 Po 0 0 0 15 552EA04C 00000000 ~~
@@ -251,14 +251,143 @@ Ne 0 ""
 Po -0.9525 0
 $EndPAD
 $EndMODULE SMT-0805
-$MODULE SMT-TQFP-64-0.5MM
-Po 0 0 0 15 5523AB0A 00000000 ~~
-Li SMT-TQFP-64-0.5MM
+$MODULE SOIC-N-16
+Po 0 0 0 15 552E3232 00000000 ~~
+Li SOIC-N-16
+Cd 16 PIN SOIC-N
+Kw SOIC
 Sc 0
 AR 
 Op 0 0 0
-T0 0 -7.62 1 1 0 0.15 N I 21 N "SMT-TQFP-64-0.5MM"
-T1 0 7.5 1 1 0 0.15 N V 21 N "U***"
+.LocalClearance 0.16
+T0 5.75 0 1 1 900 0.15 N V 21 N "SOIC-N-16"
+T1 -5.5 0 1 1 900 0.15 N I 21 N "VAL**"
+DC -5.5 2.75 -5.5 2.5 0.2 21
+DS -4.75 -1.5 -4.75 1.5 0.1 21
+DS -4.75 1.5 4.75 1.5 0.1 21
+DS 4.75 1.5 4.75 -1.5 0.1 21
+DS 4.75 -1.5 -4.75 -1.5 0.1 21
+$PAD
+Sh "13" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 -2.7
+$EndPAD
+$PAD
+Sh "14" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 -2.7
+$EndPAD
+$PAD
+Sh "15" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 -2.7
+$EndPAD
+$PAD
+Sh "16" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.445 -2.7
+$EndPAD
+$PAD
+Sh "12" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 -2.7
+$EndPAD
+$PAD
+Sh "11" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 -2.7
+$EndPAD
+$PAD
+Sh "10" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 -2.7
+$EndPAD
+$PAD
+Sh "9" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.445 -2.7
+$EndPAD
+$PAD
+Sh "8" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.445 2.7
+$EndPAD
+$PAD
+Sh "7" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 2.7
+$EndPAD
+$PAD
+Sh "6" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 2.7
+$EndPAD
+$PAD
+Sh "5" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 2.7
+$EndPAD
+$PAD
+Sh "1" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.445 2.7
+$EndPAD
+$PAD
+Sh "2" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 2.7
+$EndPAD
+$PAD
+Sh "3" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 2.7
+$EndPAD
+$PAD
+Sh "4" R 0.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 2.7
+$EndPAD
+$EndMODULE SOIC-N-16
+$MODULE TQFP-64-0.5MM
+Po 0 0 0 15 55D44F07 00000000 ~~
+Li TQFP-64-0.5MM
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7.62 1 1 0 0.15 N V 21 N "TQFP-64-0.5MM"
+T1 0 7.5 1 1 0 0.15 N I 21 N "U***"
 DS 4 -4.5 -4 -4.5 0.15 21
 DS 4 -4.5 4 4 0.15 21
 DS 4 4 -4.5 4 0.15 21
@@ -713,134 +842,5 @@ At SMD N 00888000
 Ne 0 ""
 Po -4 -6
 $EndPAD
-$EndMODULE SMT-TQFP-64-0.5MM
-$MODULE SOIC-N-16
-Po 0 0 0 15 552E3232 00000000 ~~
-Li SOIC-N-16
-Cd 16 PIN SOIC-N
-Kw SOIC
-Sc 0
-AR 
-Op 0 0 0
-.LocalClearance 0.16
-T0 5.75 0 1 1 900 0.15 N V 21 N "SOIC-N-16"
-T1 -5.5 0 1 1 900 0.15 N I 21 N "VAL**"
-DC -5.5 2.75 -5.5 2.5 0.2 21
-DS -4.75 -1.5 -4.75 1.5 0.1 21
-DS -4.75 1.5 4.75 1.5 0.1 21
-DS 4.75 1.5 4.75 -1.5 0.1 21
-DS 4.75 -1.5 -4.75 -1.5 0.1 21
-$PAD
-Sh "13" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -0.635 -2.7
-$EndPAD
-$PAD
-Sh "14" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1.905 -2.7
-$EndPAD
-$PAD
-Sh "15" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -3.175 -2.7
-$EndPAD
-$PAD
-Sh "16" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -4.445 -2.7
-$EndPAD
-$PAD
-Sh "12" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0.635 -2.7
-$EndPAD
-$PAD
-Sh "11" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1.905 -2.7
-$EndPAD
-$PAD
-Sh "10" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3.175 -2.7
-$EndPAD
-$PAD
-Sh "9" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4.445 -2.7
-$EndPAD
-$PAD
-Sh "8" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4.445 2.7
-$EndPAD
-$PAD
-Sh "7" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3.175 2.7
-$EndPAD
-$PAD
-Sh "6" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1.905 2.7
-$EndPAD
-$PAD
-Sh "5" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0.635 2.7
-$EndPAD
-$PAD
-Sh "1" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -4.445 2.7
-$EndPAD
-$PAD
-Sh "2" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -3.175 2.7
-$EndPAD
-$PAD
-Sh "3" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1.905 2.7
-$EndPAD
-$PAD
-Sh "4" R 0.6 1.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -0.635 2.7
-$EndPAD
-$EndMODULE SOIC-N-16
+$EndMODULE TQFP-64-0.5MM
 $EndLIBRARY
