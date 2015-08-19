@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wed 19 Aug 2015 05:59:29 AM EDT
+PCBNEW-LibModule-V1  Wed 19 Aug 2015 06:00:50 AM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -428,13 +428,14 @@ Po -0.635 2.7
 $EndPAD
 $EndMODULE SOIC-N-16
 $MODULE SOT-23-3
-Po 0 0 0 15 55D45129 00000000 ~~
+Po 0 0 0 15 55D453AB 00000000 ~~
 Li SOT-23-3
 Sc 0
 AR 
 Op 0 0 0
 T0 0 -3 1 1 0 0.15 N V 21 N "SOT-23-3"
 T1 0 3 1 1 0 0.15 N I 21 N "VAL**"
+DC -2 1.1 -2 1 0.15 21
 $PAD
 Sh "1" R 1 1.4 0 0 0
 Dr 0 0 0
